@@ -1,3 +1,6 @@
 body {
   background: var(--cinza-claro-bg-card);
 }
+.carrossel img {
+  width: 100%;
+}
