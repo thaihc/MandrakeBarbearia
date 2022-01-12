@@ -52,25 +52,31 @@
 .telefone {
   height: 80px;
   width: 80px;
-  background-image: url('../img/icon-telefone.png');
-  background-position: center;
-  background-size: contain;
+}
+
+.telefone > img {
+  height: 80px;
+  width: 80px;
 }
 
 .whatsapp {
   height: 80px;
   width: 80px;
-  background-image: url('../img/icon-wpp.png');
-  background-position: center;
-  background-size: contain;
+}
+
+.whatsapp > img {
+  height: 80px;
+  width: 80px;
 }
 
 .mensagem {
   height: 80px;
   width: 80px;
-  background-image: url('../img/icon-mensagem.png');
-  background-position: center;
-  background-size: contain;
+}
+
+.mensagem > img {
+  height: 80px;
+  width: 80px;
 }
 
 .horarioFuncionamento {
