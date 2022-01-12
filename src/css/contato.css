@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  width: 100%;
+  height: auto;
+  background-color: var(--primaria-bg);
+}
+
+.carrossel {
+  width: 100%;
+  height: auto;
+}
+
+.carrossel > img {
+  width: 100%;
+  height: auto;
+}
+
+.titulo {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-bottom: 7px solid var(--primaria);
+}
+
+.titulo > h1 {
+  font-size: 50px;
+  font-family: var(--special);
+  color: var(--primaria);
+}
+
+.box-contato {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato {
+  width: 881px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato > p {
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: var(--off);
+  color: var(--secundaria);
+  text-decoration: underline;
+}
+
+.box {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.telefone {
+  height: 80px;
+  width: 80px;
+}
+
+.telefone > img {
+  height: 80px;
+  width: 80px;
+}
+
+.whatsapp {
+  height: 80px;
+  width: 80px;
+}
+
+.whatsapp > img {
+  height: 80px;
+  width: 80px;
+}
+
+.mensagem {
+  height: 80px;
+  width: 80px;
+}
+
+.mensagem > img {
+  height: 80px;
+  width: 80px;
+}
+
+.telefone:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.whatsapp:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.mensagem:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.horarioFuncionamento {
+  height: 80px;
+  width: 100%;
+  padding-left: 40px;
+  font-family: var(--bellota);
+  font-size: 18px;
+}
+
+.horarioFuncionamento p:nth-child(1) {
+  color: var(--primaria);
+}
+.horarioFuncionamento p:nth-child(2) {
+  color: var(--primaria-texto);
+}
+
+.mapa {
+  width: 100%;
+  height: 450px;
+}
+
+.mapa > iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.endereco {
+  font-size: 18px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  text-align: center;
+  padding: 10px;
+}
+
+#unidade {
+  margin-top: 20px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secundaria-bg);
+  flex-direction: column;
+}
+
+.tituloUnidade {
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 25px;
+  color: var(--primaria);
+  border-top: 7px solid var(--primaria);
+}
+
+.box-unidades {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.unidades {
+  padding: 100px;
+  width: 20%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.unidades > img {
+  width: 50px;
+  height: 705;
+  padding-bottom: 10px;
+}
+
+.unidades > p {
+  width: 120px;
+  text-align: center;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+}
+
+.linha {
+  width: 100%;
+  height: 10px;
+  border-bottom: 7px solid var(--primaria);
+}
