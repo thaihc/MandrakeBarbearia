@@ -1,6 +1,8 @@
 class ControllerTema {
   checaTema() {
     const model = new ModelTema();
-    model.qualTema();
+    const tema = model.qualTema();
+    const view = new ViewTema();
+    view.trocaTema(tema);
   }
 }
