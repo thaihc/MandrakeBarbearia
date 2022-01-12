@@ -4,28 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/reset.css" />
+    <!-- <link rel="stylesheet" href="../css/reset.css" /> -->
     <link rel="stylesheet" href="../css/contato.css" />
+    <link rel='stylesheet' href='../css/global.css' />
+   
     <title>Document</title>
   </head>
   <body data-tema="light">
     <header>
       <nav class="cabecalho">
         <div class="logo">
-          <img class='imgLogo' src="../img/logo-rosa.png" />
+          <img class='imgLogo' src="../img/logo-light.png" />
         </div>
         <div class="paginas">
           <a href="">HOME</a>
           <a href="">CONTATO</a>
           <a href="">SERVIÇO</a>
+          <img class='tema' src='../img/modo-light.png'></img>
         </div>
       </nav>
     </header>
     <main class="principal">
         <section class='carrossel'>
             <img src='../img/foto1.png'>
-    
-          </section>
+        </section>
       <section class="titulo">
         <h1>MANDRAKE</h1>
         <h1>BARBEARIA</h1>
@@ -34,9 +36,9 @@
         <section class="contato">
           <p>CONTATO</p>
           <div class="box">
-            <div class="telefone"><img src='../img/icon-telefone.png'></img></div>
-            <div class="whatsapp"><img src='../img/icon-wpp.png'></img></div>
-            <div class="mensagem"><img src='../img/icon-mensagem.png'></img></div>
+            <div ><img class="telefone" src='../img/icon-telefone-light.png'></img></div>
+            <div ><img class="whatsapp" src='../img/icon-wpp-light.png'></img></div>
+            <div ><img class="mensagem" src='../img/icon-mensagem-light.png'></img></div>
           </div>
         </section>
       </section>
@@ -50,34 +52,34 @@
       <p class ='endereco'>Avenida Itaquera, 7045 - Vila Carmosina, São Paulo - SP</p>
       <section id='unidade'>
           <div class='tituloUnidade'>
-            <h3>Conheça nossas unidades</h3> 
+            <h3>Conheça nossas unidades:</h3> 
           </div>
           <div class='box-unidades'>
               <div class='unidades'>
-                <img class='localização' src='../img/localizacaolight.png'></img>
+                <img class='localizacao' src='../img/localizacao-light.png'></img>
                 <p>Itaquera</p>
               </div>
               <div class='unidades'>
-                <img class='localização' src='../img/localizacao-light.png'></img>
+                <img class='localizacao' src='../img/localizacao-light.png'></img>
                 <p>Capão Redondo</p>
               </div><div class='unidades'>
-                <img class='localização' src='../img/localizacao-light.png'></img>
+                <img class='localizacao' src='../img/localizacao-light.png'></img>
                 <p>Osasco</p>
               </div><div class='unidades'>
-                <img class='localização' src='../img/localizacao-light.png'></img>
+                <img class='localizacao' src='../img/localizacao-light.png'></img>
                 <p>São Mateus</p>
               </div><div class='unidades'>
-                <img class='localização' src='../img/localizacao-light.png'></img>
+                <img class='localizacao' src='../img/localizacao-light.png'></img>
                 <p>Paraisópolis</p>
               </div><div class='unidades'>
-                <img class='localização' src='../img/localizacao-light.png'></img>
+                <img class='localizacao' src='../img/localizacao-light.png'></img>
                 <p>Brasilândia</p>
               </div>
           </div>
           <div class='linha'></div>
       </section>
     </main>
-    <footer>
+    <!-- <footer>
         <div class="container-1">
           <div class="elemento-nulo"></div>
           <div class="logo"><img src="./img/logo/logo-rosa.png" /></div>
@@ -99,6 +101,11 @@
             Reservados || Projeto criado para fins educacionais
           </p>
         </div>
-      </footer>
+      </footer> -->
+      <script src='//code.jquery.com/jquery-3.6.0.min.js'></script>
+      <script src='../js/controllers/mudatema_controller.js'></script>
+      <script src='../js/models/mudatema_model.js'></script>
+      <script src='../js/views/mudatema_view.js'></script>
+      <script src='../js/main.js'></script>
   </body>
 </html>

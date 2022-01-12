@@ -35,6 +35,7 @@
 .titulo > h1 {
   font-size: 50px;
   font-family: var(--special);
+  color: var(--primaria);
 }
 
 .box-contato {
@@ -119,10 +120,15 @@
   height: 80px;
   width: 100%;
   padding-left: 40px;
+  font-family: var(--bellota);
+  font-size: 18px;
 }
 
 .horarioFuncionamento p:nth-child(1) {
   color: var(--primaria);
+}
+.horarioFuncionamento p:nth-child(2) {
+  color: var(--primaria-texto);
 }
 
 .mapa {
@@ -159,6 +165,7 @@
   padding-left: 50px;
   padding-top: 20px;
   font-size: 25px;
+  color: var(--primaria);
   border-top: 7px solid var(--primaria);
 }
 
