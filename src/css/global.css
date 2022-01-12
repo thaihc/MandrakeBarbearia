@@ -103,3 +103,16 @@ footer {
   text-align: center;
   color: var(--detalhe-footer);
 }
+
+@media (max-width: 900px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+  }
+  .texto {
+    display: none;
+  }
+}
