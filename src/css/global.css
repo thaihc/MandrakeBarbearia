@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27");
+
+body {
+  --off: "Offside", cursive;
+  --bellota: "Bellota Text", cursive;
+  --special: "Special Elite", cursive;
+  --cinza-claro-bg-card: #f2f2f2;
+  background-color: #636d80;
+}
+
+body[data-tema="light"] {
+  --primaria: #e93678;
+  --secundaria: #636d80;
+  --primaria-bg: #d9d9d9;
+  --secundaria-bg: #ffff;
+  --logo: url("../img/logo/logo-rosa.png");
+}
+
+body[data-tema="dark"] {
+  --primaria: #ffff;
+  --secundaria: #0000;
+  --primaria-bg: #842161;
+  --secundaria-bg: #12161e;
+  --logo: url("../img/logo/logo-branco.png");
+}
+
+header {
+  background-color: var(--secundaria-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.cabecalho {
+  width: 100%;
+  height: 80px;
+  margin: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 130px;
+  height: 68px;
+  background-position: center;
+  background-size: contain;
+}
+
+.paginas {
+  width: 410px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--special);
+}
+
+.paginas > a {
+  color: var(--primaria);
+  text-decoration: none;
+}
+
+footer {
+  background-color: var(--secundaria-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  justify-content: space-around;
+  width: 100%;
+  height: 250px;
+  padding: 10px 0;
+  font-family: var(--bellota);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.titulo {
+  color: #e93678;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon img {
+  width: 50px;
+  padding: 10px;
+}
+.direitos {
+  text-align: center;
+}
