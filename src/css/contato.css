@@ -1,0 +1,65 @@
+.principal {
+  width: 100%;
+  height: 800px;
+  background-color: var(--primaria-bg);
+}
+
+.titulo {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.titulo > h1 {
+  font-size: 40px;
+  font-family: var(--special);
+}
+
+.contato {
+  width: 881px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato > p {
+  font-size: 25px;
+}
+
+.box {
+  height: 200px;
+  width: 881px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.telefone {
+  height: 80px;
+  width: 80px;
+  background-image: url('./icon-telefone.png');
+  background-position: center;
+  background-size: contain;
+}
+
+.whatsapp {
+  height: 80px;
+  width: 80px;
+  background-image: url('./icon-wpp.png');
+  background-position: center;
+  background-size: contain;
+}
+
+.mensagem {
+  height: 80px;
+  width: 80px;
+  background-image: url('./icon-mensagem.png');
+  background-position: center;
+  background-size: contain;
+}
