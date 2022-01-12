@@ -1,7 +1,7 @@
 class ViewTema {
   mudaTema(tema) {
     $('.tema').attr('src', `/MandrakeBarbearia/src/img/modo-${tema}.png`);
-    // $('.imgLogo').attr('src', `/MandrakeBarbearia/src/img/modo-${tema}.png`);
+    $('.imgLogo').attr('src', `/MandrakeBarbearia/src/img/logo-${tema}.png`);
     $('.localizacao').attr(
       'src',
       `/MandrakeBarbearia/src/img/localizacao-${tema}.png`
