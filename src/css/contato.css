@@ -19,6 +19,14 @@
   font-family: var(--special);
 }
 
+.box-contato {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .contato {
   width: 881px;
   height: 274px;
@@ -30,11 +38,12 @@
 
 .contato > p {
   font-size: 25px;
+  font-family: var(--off);
 }
 
 .box {
   height: 200px;
-  width: 881px;
+  width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
