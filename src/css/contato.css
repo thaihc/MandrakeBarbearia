@@ -72,3 +72,13 @@
   background-position: center;
   background-size: contain;
 }
+
+.horarioFuncionamento {
+  height: 80px;
+  width: 100%;
+  margin-left: 40px;
+}
+
+.horarioFuncionamento p:nth-child(1) {
+  color: var(--primaria);
+}
