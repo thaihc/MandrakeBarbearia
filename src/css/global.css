@@ -11,8 +11,8 @@ body {
 
 body[data-tema='light'] {
   --primaria: #e93678;
-  --primaira-button: #e93678;
-  --primaira-texto: #636d80;
+  --primaria-button: #e93678;
+  --primaria-texto: #636d80;
   --secundaria: #585c64;
   --detalhe-footer: #e93678;
   --primaria-bg: #d9d9d9;
@@ -21,8 +21,8 @@ body[data-tema='light'] {
 
 body[data-tema='dark'] {
   --primaria: #ffff;
-  --primaira-button: #842161;
-  --primaira-texto: #f2f2f2;
+  --primaria-button: #842161;
+  --primaria-texto: #f2f2f2;
   --secundaria: #fff;
   --detalhe-footer: #842161;
   --primaria-bg: #842161;
@@ -73,6 +73,55 @@ header {
   height: 35px;
 }
 
+.sanduiche {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  height: 100vh;
+  background-color: rgba(20, 2, 41, 0.8);
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pag {
+  margin-top: 80px;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.homeS,
+.contatoS,
+.loginS,
+.ajudaS {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.homeS:hover {
+  color: rgb(182, 108, 224);
+}
+
+.contatoS:hover {
+  color: rgb(182, 108, 224);
+}
+
+.loginS:hover {
+  color: rgb(182, 108, 224);
+}
+
+.ajudaS:hover {
+  color: rgb(182, 108, 224);
+}
+
 footer {
   background-color: var(--secundaria-bg);
   display: flex;
@@ -90,7 +139,7 @@ footer {
 .container-1 {
   display: flex;
   justify-content: space-around;
-  color: var(--primaira-texto);
+  color: var(--primaria-texto);
 }
 .titulo {
   color: var(--detalhe-footer);
@@ -98,15 +147,17 @@ footer {
 
 .icon {
   display: flex;
+  align-items: center;
 }
 
 .icon img {
   width: 50px;
   padding: 10px;
 }
+
 .direitos {
   text-align: center;
-  color: var(--detalhe-footer);
+  color: var(--primaria-texto);
 }
 
 @media (max-width: 900px) {
@@ -118,6 +169,15 @@ footer {
     padding: 0 10px;
   }
   .texto {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .sanduiche {
+    display: flex;
+  }
+  .paginas {
     display: none;
   }
 }

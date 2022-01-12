@@ -18,5 +18,17 @@ class ViewTema {
       'src',
       `/MandrakeBarbearia/src/img/icon-mensagem-${tema}.png`
     );
+    $('#iconFooter1').attr(
+      'src',
+      `/MandrakeBarbearia/src/img/icons/telefone-${tema}.png`
+    );
+    $('#iconFooter2').attr(
+      'src',
+      `/MandrakeBarbearia/src/img/icons/wpp-${tema}.png`
+    );
+    $('#iconFooter3').attr(
+      'src',
+      `/MandrakeBarbearia/src/img/icons/email-${tema}.png`
+    );
   }
 }

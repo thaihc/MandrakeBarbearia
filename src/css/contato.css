@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primaria-bg);
+}
 .principal {
   width: 100%;
-  height: auto;
-  background-color: var(--primaria-bg);
 }
 
 .carrossel {
@@ -20,7 +22,7 @@
   height: auto;
 }
 
-.titulo {
+.barbearia {
   width: 100%;
   height: 150px;
   display: flex;
@@ -32,7 +34,7 @@
   border-bottom: 7px solid var(--primaria);
 }
 
-.titulo > h1 {
+.barbearia > h1 {
   font-size: 50px;
   font-family: var(--special);
   color: var(--primaria);
@@ -158,6 +160,7 @@
   justify-content: center;
   background-color: var(--secundaria-bg);
   flex-direction: column;
+  margin-bottom: 150px;
 }
 
 .tituloUnidade {
