@@ -102,14 +102,17 @@
 
 .telefone:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .whatsapp:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .mensagem:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .horarioFuncionamento {
