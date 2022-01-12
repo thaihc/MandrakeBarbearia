@@ -3,4 +3,15 @@ body {
 }
 .carrossel img {
   width: 100%;
+  height: auto;
+}
+
+.titulo-principal {
+  padding: 40px 20px 20px;
+  border-bottom: 6px solid #e93678;
+}
+.titulo-principal h1 {
+  font-family: var(--special);
+  font-size: 50px;
+  color: var(--primaria);
 }
