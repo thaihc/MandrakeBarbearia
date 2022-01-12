@@ -55,9 +55,11 @@
 }
 
 .contato > p {
-  font-size: 25px;
+  padding-top: 20px;
+  font-size: 30px;
   font-family: var(--off);
   color: var(--secundaria);
+  text-decoration: underline;
 }
 
 .box {
