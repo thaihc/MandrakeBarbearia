@@ -43,7 +43,7 @@
 .telefone {
   height: 80px;
   width: 80px;
-  background-image: url('./icon-telefone.png');
+  background-image: url('../img/icon-telefone.png');
   background-position: center;
   background-size: contain;
 }
@@ -51,7 +51,7 @@
 .whatsapp {
   height: 80px;
   width: 80px;
-  background-image: url('./icon-wpp.png');
+  background-image: url('../img/icon-wpp.png');
   background-position: center;
   background-size: contain;
 }
@@ -59,7 +59,7 @@
 .mensagem {
   height: 80px;
   width: 80px;
-  background-image: url('./icon-mensagem.png');
+  background-image: url('../img/icon-mensagem.png');
   background-position: center;
   background-size: contain;
 }
