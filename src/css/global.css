@@ -1,15 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27");
-@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap%27");
-@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27");
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27');
 
 body {
-  --off: "Offside", cursive;
-  --bellota: "Bellota Text", cursive;
-  --special: "Special Elite", cursive;
+  --off: 'Offside', cursive;
+  --bellota: 'Bellota Text', cursive;
+  --special: 'Special Elite', cursive;
   --cinza-claro-bg-card: #f2f2f2;
 }
 
-body[data-tema="light"] {
+body[data-tema='light'] {
   --primaria: #e93678;
   --primaira-button: #e93678;
   --primaira-texto: #636d80;
@@ -19,7 +19,7 @@ body[data-tema="light"] {
   --secundaria-bg: #ffff;
 }
 
-body[data-tema="dark"] {
+body[data-tema='dark'] {
   --primaria: #ffff;
   --primaira-button: #842161;
   --primaira-texto: #f2f2f2;
@@ -66,6 +66,11 @@ header {
 .paginas > a {
   color: var(--primaria);
   text-decoration: none;
+}
+
+.paginas > img {
+  width: 35px;
+  height: 35px;
 }
 
 footer {
