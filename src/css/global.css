@@ -11,18 +11,20 @@ body {
 
 body[data-tema="light"] {
   --primaria: #e93678;
-  --secundaria: #636d80;
+  --primaira-texto: #636d80;
+  --secundaria: #585c64;
+  --detalhe-footer: #e93678;
   --primaria-bg: #d9d9d9;
   --secundaria-bg: #ffff;
-  --logo: url("../img/logo/logo-rosa.png");
 }
 
 body[data-tema="dark"] {
   --primaria: #ffff;
-  --secundaria: #0000;
+  --primaira-texto: #f2f2f2;
+  --secundaria: #fff;
+  --detalhe-footer: #842161;
   --primaria-bg: #842161;
   --secundaria-bg: #12161e;
-  --logo: url("../img/logo/logo-branco.png");
 }
 
 header {
@@ -81,9 +83,10 @@ footer {
 .container-1 {
   display: flex;
   justify-content: space-around;
+  color: var(--primaira-texto);
 }
 .titulo {
-  color: #e93678;
+  color: var(--detalhe-footer);
 }
 
 .icon {
@@ -96,4 +99,5 @@ footer {
 }
 .direitos {
   text-align: center;
+  color: var(--primaira-texto);
 }
