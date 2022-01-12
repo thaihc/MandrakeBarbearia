@@ -99,5 +99,6 @@ footer {
 }
 .direitos {
   text-align: center;
-  color: var(--detalhe-footer);
+  color: var(--primaira-texto);
+  font-size: 15px;
 }
