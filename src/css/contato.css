@@ -45,6 +45,7 @@
 .contato > p {
   font-size: 25px;
   font-family: var(--off);
+  color: var(--secundaria);
 }
 
 .box {
@@ -97,10 +98,18 @@
 
 .mapa {
   width: 100%;
-  height: 500px;
+  height: 450px;
 }
 
 .mapa > iframe {
   width: 100%;
-  height: 500px;
+  height: 450px;
+}
+
+.endereco {
+  font-size: 18px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  text-align: center;
+  padding: 10px;
 }
