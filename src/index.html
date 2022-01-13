@@ -11,12 +11,13 @@
   </head>
   <body data-tema="light">
     <header>
-      <nav class="cabecalho imgLogo">
-        <div class="logo"><img src="./img/logo/logo-rosa.png" /></div>
+      <nav class="cabecalho">
+        <div class="logo"><img src="./img/logo-light.png" class="imgLogo"/></div>
         <div class="paginas">
           <a href="./html/sobre.html" class="paginas">SOBRE</a>
           <a href="./html/servicos.html" class="paginas">SERVIÇOS</a>
           <a href="./html/contato.html" class="paginas">CONTATO</a>
+          <img class='tema' src='./img/modo-light.png'></img>
         </div>
       </nav>
     </header>
@@ -103,7 +104,7 @@
       <div class="container-1">
         <div class="elemento-nulo"></div>
         <div class="elemento-nulo"></div>
-        <div class="logo imgLogo"><img src="./img/logo/logo-rosa.png" /></div>
+        <div class="logo"><img  class="imgLogo"src="./img/logo-light.png" /></div>
         <div class="texto">
           <p>
             <span class="titulo">Horário de atendimento:</span><br />de Terça à
@@ -130,5 +131,11 @@
         </p>
       </div>
     </footer>
+
+    <script src='//code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src='./js/controllers/mudatema_controller.js'></script>
+    <script src='./js/models/mudatema_model.js'></script>
+    <script src='./js/views/mudatema_view.js'></script>
+    <script src='./js/main.js'></script>
   </body>
 </html>

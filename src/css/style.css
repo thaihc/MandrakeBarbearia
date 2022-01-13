@@ -40,7 +40,7 @@ a {
 
 .card1 h3 {
   font-family: var(--off);
-  color: var(--primaira-texto);
+  color: var(--primaria-texto);
   font-weight: 400;
   font-size: 36px;
 }
@@ -48,7 +48,7 @@ a {
 button {
   width: 200px;
   height: 80px;
-  background: var(--primaira-button);
+  background: var(--primaria-button);
   border: none;
   border-radius: 30px;
   color: white;
@@ -92,7 +92,7 @@ button {
   font-size: 24px;
   font-family: var(--bellota);
   font-weight: 400;
-  color: var(--primaira-texto);
+  color: var(--primaria-texto);
   padding-bottom: 36px;
 }
 
