@@ -45,10 +45,10 @@ a {
   font-size: 36px;
 }
 
-button {
+.btn {
   width: 200px;
   height: 80px;
-  background: var(--primaria-button);
+  background: var(--primaria2);
   border: none;
   border-radius: 30px;
   color: white;
@@ -143,6 +143,89 @@ button {
 
 .w-1 {
   grid-column: span 1;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: var(--primaria-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 550px;
+  padding: 30px 50px;
+  border-radius: 20px;
+  border: 3px solid var(--primaria2);
+  position: relative;
+}
+
+.modal h2 {
+  font-family: var(--bellota);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secundaria);
+}
+
+.caixa {
+  width: 100%;
+  height: 7vh;
+  padding-left: 10px;
+  border: 1px solid var(--primaria);
+  border-radius: 10px;
+  font-family: var(--bellota);
+}
+
+.caixa-texto {
+  width: 100%;
+  height: 20vh;
+  padding: 10px;
+  border: 1px solid var(--primaria);
+  border-radius: 10px;
+  font-family: var(--bellota);
+}
+
+.botao {
+  width: 160px;
+  height: 55px;
+  background: var(--primaria2);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: var(--bellota);
+  font-size: 20px;
+}
+
+.botao:hover {
+  cursor: pointer;
+}
+
+.fechar {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid var(--primaria-bg);
+  background: var(--primaria);
+  color: var(--secundaria-bg);
+  font-family: var(--bellota);
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 900px) {

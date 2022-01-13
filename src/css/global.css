@@ -1,30 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27');
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27");
 
 body {
-  --off: 'Offside', cursive;
-  --bellota: 'Bellota Text', cursive;
-  --special: 'Special Elite', cursive;
+  --off: "Offside", cursive;
+  --bellota: "Bellota Text", cursive;
+  --special: "Special Elite", cursive;
   --cinza-claro-bg-card: #f2f2f2;
 }
 
-body[data-tema='light'] {
+body[data-tema="light"] {
   --primaria: #e93678;
-  --primaria-button: #e93678;
+  --primaria2: #e93678;
   --primaria-texto: #636d80;
   --secundaria: #585c64;
-  --detalhe-footer: #e93678;
   --primaria-bg: #d9d9d9;
   --secundaria-bg: #ffff;
 }
 
-body[data-tema='dark'] {
+body[data-tema="dark"] {
   --primaria: #ffff;
-  --primaria-button: #842161;
+  --primaria2: #842161;
   --primaria-texto: #f2f2f2;
   --secundaria: #fff;
-  --detalhe-footer: #842161;
   --primaria-bg: #842161;
   --secundaria-bg: #12161e;
 }
@@ -142,7 +140,7 @@ footer {
   color: var(--primaria-texto);
 }
 .titulo {
-  color: var(--detalhe-footer);
+  color: var(--primaria2);
 }
 
 .icon {
