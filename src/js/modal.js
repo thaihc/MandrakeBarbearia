@@ -3,7 +3,11 @@ function startModal(modalId) {
   if (modal) {
     modal.classList.add("mostrar");
     modal.addEventListener("click", (e) => {
-      if (e.target.id == modalId || e.target.className == "fechar") {
+      if (
+        e.target.id == modalId ||
+        e.target.className == "fechar" ||
+        e.target.className == "botao"
+      ) {
         modal.classList.remove("mostrar");
       }
     });
