@@ -25,3 +25,26 @@ $(document).ready((e) => {
     console.log(controller.contador);
   });
 });
+
+$(window).resize((e) => {
+  if ($(window).innerWidth() < 770) {
+    $('.btn-sandwich0').css('display', 'flex');
+    $('.paginas').css('display', 'none');
+  } else {
+    $('.btn-sandwich0').css('display', 'none');
+    $('.paginas').css('display', 'flex');
+    $('.sanduiche').css('display', 'none');
+  }
+});
+
+$('.btn-sandwich0').click((e) => {
+  $('.sanduiche').css('display', 'flex');
+  $('.btn-sandwich0').css('display', 'none');
+  $('.btn-sandwich1').css('display', 'flex');
+});
+
+$('.btn-sandwich1').click((e) => {
+  $('.sanduiche').css('display', 'none');
+  $('.btn-sandwich0').css('display', 'flex');
+  $('.btn-sandwich1').css('display', 'none');
+});
