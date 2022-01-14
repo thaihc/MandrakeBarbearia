@@ -10,16 +10,6 @@
   background-color: var(--primaria-bg);
 }
 
-.carrossel {
-  width: 100%;
-  height: auto;
-}
-
-.carrossel > img {
-  width: 100%;
-  height: auto;
-}
-
 .titulo {
   width: 100%;
   height: 150px;
