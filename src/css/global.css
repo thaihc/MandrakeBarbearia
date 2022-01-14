@@ -7,10 +7,11 @@ body {
   --bellota: "Bellota Text", cursive;
   --special: "Special Elite", cursive;
   --cinza-claro-bg-card: #f2f2f2;
+  position: relative;
 }
 
 body[data-tema="light"] {
-  --primaria: #e93678;
+  --primaria: rgb(233, 54, 120);
   --primaria2: #e93678;
   --primaria-texto: #636d80;
   --secundaria: #585c64;
@@ -37,9 +38,8 @@ header {
 }
 
 .cabecalho {
-  width: 100%;
+  width: 90%;
   height: 80px;
-  margin: 74px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,6 +71,28 @@ header {
   height: 35px;
 }
 
+.btn-sandwich0,
+.btn-sandwich1 {
+  width: 40px;
+  height: 40px;
+  display: none;
+  position: absolute;
+  border-radius: 50px;
+  background-color: var(--primaria);
+  background-image: url("../img/menu.png");
+  background-size: contain;
+}
+
+.btn-sandwich0 {
+  top: 30px;
+  right: 5%;
+  z-index: 1;
+}
+
+.btn-sandwich1 {
+  top: 30px;
+}
+
 .sanduiche {
   display: none;
   flex-direction: column;
@@ -78,46 +100,93 @@ header {
   align-items: center;
   width: 30%;
   height: 100vh;
-  background-color: rgba(20, 2, 41, 0.8);
+  background-color: var(--secundaria-bg);
   padding: 10px;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  z-index: 200;
 }
 
 .pag {
   margin-top: 80px;
-  width: 50%;
+  width: 100%;
   height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  font-family: var(--special);
 }
 
-.homeS,
-.contatoS,
-.loginS,
-.ajudaS {
-  font-size: 20px;
+.pag > a {
+  color: var(--primaria);
   text-decoration: none;
-  color: white;
+  text-align: center;
 }
 
-.homeS:hover {
-  color: rgb(182, 108, 224);
+.carrossel {
+  width: 100%;
+  height: auto;
 }
 
-.contatoS:hover {
-  color: rgb(182, 108, 224);
+.slide {
+  width: 100%;
+  height: 500px;
 }
 
-.loginS:hover {
-  color: rgb(182, 108, 224);
+.foto0 {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/foto1.png");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.ajudaS:hover {
-  color: rgb(182, 108, 224);
+.foto1 {
+  display: none;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/foto2.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.foto2 {
+  display: none;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/foto3.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.next,
+.prev {
+  width: 4%;
+  height: 2%;
+  position: absolute;
+  background-color: rgba(233, 54, 120, 0.5);
+  z-index: 4;
+}
+
+.prev {
+  top: 350px;
+  left: 1%;
+  background-image: url("../img/prev.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.next {
+  top: 350px;
+  right: 1%;
+  background-image: url("../img/next.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 footer {
@@ -140,7 +209,7 @@ footer {
   color: var(--primaria-texto);
 }
 .titulo {
-  color: var(--primaria2);
+  color: var(--detalhe-footer);
 }
 
 .icon {
@@ -167,15 +236,6 @@ footer {
     padding: 0 10px;
   }
   .texto {
-    display: none;
-  }
-}
-
-@media (max-width: 770px) {
-  .sanduiche {
-    display: flex;
-  }
-  .paginas {
     display: none;
   }
 }
