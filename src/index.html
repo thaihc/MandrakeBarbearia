@@ -12,7 +12,7 @@
   <body data-tema="light">
     <header>
       <nav class="cabecalho">
-        <div class="logo"><img src="./img/logo-light.png" class="imgLogo"/></div>
+        <div class="logo"><img class="imgLogo"src="./img/logo-light.png" /></div>
         <div class="paginas">
           <a href="./html/sobre.html" class="paginas">SOBRE</a>
           <a href="./html/servicos.html" class="paginas">SERVIÇOS</a>
@@ -41,6 +41,7 @@
           </li> -->
         </ul>
       </section>
+
       <section class="titulo-principal">
         <h1>MANDRAKE <br />BARBEARIA</h1>
       </section>
@@ -49,17 +50,17 @@
         <div class="card1">
           <h3>PRODUTOS</h3>
           <img src="./img/icons/cards-home/produtos.png" />
-          <button><a href="./html/servicos.html">Saiba mais</a></button>
+          <button class="btn"><a href="./html/servicos.html">Saiba mais</a></button>
         </div>
         <div class="card1">
           <h3>SERVIÇOS</h3>
           <img src="./img/icons/cards-home/serviços.png" />
-          <button><a href="./html/servicos.html">Saiba mais</a></button>
+          <button class="btn"><a href="./html/servicos.html">Saiba mais</a></button>
         </div>
         <div class="card1">
           <h3>TABACARIA</h3>
           <img src="./img/icons/cards-home/tabacaria.png" />
-          <button><a href="./html/servicos.html">Saiba mais</a></button>
+          <button class="btn"><a href="./html/servicos.html">Saiba mais</a></button>
         </div>
       </section>
 
@@ -74,29 +75,46 @@
               disso, você pode desfrutar da nossa tabacaria e loja de produtos
               para cuidados pessoais.
             </p>
-            <button>
+            <button class="btn">
               <a href="./html/sobre.html">Sobre nós</a>
             </button>
           </div>
         </div>
       </section>
 
-      <section class="galeria">
+      <section class="t-galeria">
         <h2><u>GALERIA DE FOTOS</u></h2>
-        <div class="imagens">
-          <img src="./img/galeria/1.png" />
-          <img src="./img/galeria/2.png" />
-          <img src="./img/galeria/3.png" />
+        <div class="galeria">
+          <div class="imagens h-1 w-1">
+            <img src="./img/galeria/1.png" />
+          </div>
+
+          <div class="imagens h-1 w-1">
+            <img src="./img/galeria/2.png" />
+          </div>
+
+          <div class="imagens h-1 w-1">
+            <img src="./img/galeria/3.png" />
+          </div>
+
+          <div class="imagens h-2 w-1">
+            <img src="./img/galeria/4.png" />
+          </div>
+
+          <div class="imagens h-2 w-1">
+            <img src="./img/galeria/5.png" />
+          </div>
+
+          <div class="imagens h-1 w-1">
+            <img src="./img/galeria/7.png" />
+          </div>
+
+          <div class="imagens h-1 w-1">
+            <img src="./img/galeria/6.png" />
+          </div>
+          
         </div>
-        <div class="imagens">
-          <img src="./img/galeria/4.png" />
-          <img src="./img/galeria/5.png" />
-        </div>
-        <div class="imagens">
-          <img src="./img/galeria/6.png" />
-          <img src="./img/galeria/7.png" />
-          <img src="./img/galeria/8.png" />
-        </div>
+        
       </section>
     </main>
 
@@ -132,10 +150,25 @@
       </div>
     </footer>
 
+  <div id="modalContato" class="modal-container">
+    <div class="modal">
+      <button class="fechar">X</button>
+      <h2>Entre em contato com a gente</h2>
+      <input class="caixa" id="name" name="name" type="text" placeholder="Nome Completo" required>
+  
+      <input class="caixa" id="email" name="email" type="email" placeholder="E-mail" required>
+
+      <textarea id="mensagem"  class="caixa-texto" placeholder="Escreva sua mensagem" required></textarea>
+
+      <a href="#"><input type="button" class="botao" value="Enviar"></a>
+    </div>
+  </div>
+
     <script src='//code.jquery.com/jquery-3.6.0.min.js'></script>
     <script src='./js/controllers/mudatema_controller.js'></script>
     <script src='./js/models/mudatema_model.js'></script>
     <script src='./js/views/mudatema_view.js'></script>
     <script src='./js/main.js'></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
