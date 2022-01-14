@@ -345,3 +345,10 @@ footer {
     display: none;
   }
 }
+
+@media (max-width: 400px) {
+  .sanduiche {
+    width: 40%;
+    height: 100%;
+  }
+}
