@@ -95,7 +95,7 @@
           <div class='linha'></div>
       </section>
     </main>
-    
+
     <footer>
       <div class="container-1">
         <div class="elemento-nulo"></div>
@@ -127,6 +127,21 @@
         </p>
       </div>
     </footer>
+
+    <div id="modalContato" class="modal-container">
+      <div class="modal">
+        <button class="fechar">X</button>
+        <h2>Entre em contato com a gente</h2>
+        <input class="caixa" id="name" name="name" type="text" placeholder="Nome Completo" required>
+    
+        <input class="caixa" id="email" name="email" type="email" placeholder="E-mail" required>
+  
+        <textarea id="mensagem"  class="caixa-texto" placeholder="Escreva sua mensagem" required></textarea>
+  
+        <a href="#"><input type="button" class="botao" value="Enviar"></a>
+      </div>
+    </div>
+
       <script src='//code.jquery.com/jquery-3.6.0.min.js'></script>
       <script src='../js/controllers/mudatema_controller.js'></script>
       <script src='../js/models/mudatema_model.js'></script>
@@ -135,5 +150,6 @@
       <script src='../js/models/slide_model.js'></script>
       <script src='../js/views/slide_view.js'></script>
       <script src='../js/main.js'></script>
+      <script src="./src/js/modal.js"></script>
   </body>
 </html>
