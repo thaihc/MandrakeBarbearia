@@ -66,21 +66,19 @@ header {
   text-decoration: none;
 }
 
-.paginas > img {
+.tema {
   width: 35px;
   height: 35px;
 }
 
 .btn-sandwich0,
 .btn-sandwich1 {
-  width: 40px;
+  width: 35px;
   height: 40px;
   display: none;
   position: absolute;
-  border-radius: 50px;
-  background-color: var(--primaria);
-  background-image: url('../img/menu.png');
-  background-size: contain;
+  background-image: url('../img/menu-light.png');
+  background-size: cover;
 }
 
 .btn-sandwich0 {
