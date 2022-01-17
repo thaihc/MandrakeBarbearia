@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27');
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&family=Offside&display=swap%27");
 
 body {
-  --off: 'Offside', cursive;
-  --bellota: 'Bellota Text', cursive;
-  --special: 'Special Elite', cursive;
+  --off: "Offside", cursive;
+  --bellota: "Bellota Text", cursive;
+  --special: "Special Elite", cursive;
   --cinza-claro-bg-card: #f2f2f2;
   position: relative;
 }
 
-body[data-tema='light'] {
+body[data-tema="light"] {
   --primaria: rgb(233, 54, 120);
   --primaria2: #e93678;
   --primaria-texto: #636d80;
@@ -19,7 +19,7 @@ body[data-tema='light'] {
   --secundaria-bg: #ffff;
 }
 
-body[data-tema='dark'] {
+body[data-tema="dark"] {
   --primaria: #ffff;
   --primaria2: #842161;
   --primaria-texto: #f2f2f2;
@@ -77,7 +77,7 @@ header {
   height: 40px;
   display: none;
   position: absolute;
-  background-image: url('../img/menu-light.png');
+  background-image: url("../img/menu-light.png");
   background-size: cover;
 }
 
@@ -137,7 +137,7 @@ header {
   display: flex;
   width: 100%;
   height: 500px;
-  background-image: url('../img/foto1.png');
+  background-image: url("../img/2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -147,7 +147,7 @@ header {
   display: none;
   width: 100%;
   height: 500px;
-  background-image: url('../img/foto2.png');
+  background-image: url("../img/3.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -157,7 +157,7 @@ header {
   display: none;
   width: 100%;
   height: 500px;
-  background-image: url('../img/foto3.png');
+  background-image: url("../img/1.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -175,7 +175,7 @@ header {
 .prev {
   top: 350px;
   left: 1%;
-  background-image: url('../img/prev.png');
+  background-image: url("../img/prev.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@ header {
 .next {
   top: 350px;
   right: 1%;
-  background-image: url('../img/next.png');
+  background-image: url("../img/next.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
