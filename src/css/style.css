@@ -146,23 +146,6 @@ a {
 }
 
 @media (max-width: 900px) {
-  header {
-    width: 100%;
-  }
-
-  .cabecalho {
-    width: 100%;
-    margin: 0;
-    padding: 0 20px;
-  }
-  .paginas {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-bottom: 20px;
-  }
-
   .cards {
     flex-direction: column;
     align-items: center;
@@ -200,6 +183,7 @@ a {
   .imagens img {
     width: 80%;
   }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -209,5 +193,43 @@ a {
   }
   .texto {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .card1 {
+    width: 80%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .card1 img {
+    width: 70%;
+  }
+
+  .card1 h3 {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .galeria {
+    width: 90%;
+  }
+
+  .imagens img {
+    width: 100%;
+    height: 95%;
+    border: none;
   }
 }
