@@ -1,10 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>MB | PRODUTOS/SERVIÇOS</title>
   </head>
-  <body></body>
+  <body data-tema="light">
+    <header>
+      <nav class="cabecalho">
+        <div class="logo"><img class="imgLogo"src="./src/img/logo-light.png" /></div>
+        <div class="paginas">
+          <a href="../../index.html">HOME</a>
+          <a href="./sobre.html" >SOBRE</a>
+          <a href="./contato.html" >CONTATO</a>
+          <img class='tema' src='../img/modo-light.png'></img>
+        </div>
+      </nav>
+      <img class='btn-sandwich0' src='../img/menu-light.png'></img>
+        <div class="sanduiche">  
+          <img class='btn-sandwich1' src='../img/menu-light.png'></img>
+          <div class='pag'>
+            <a href ='../../index.html' >HOME</a>
+            <a href ='./sobre.html' >SOBRE</a>
+            <a href ='./contato.html' > CONTATO</a>
+            <img class='tema' src='../img/modo-light.png'></img>
+          </div>
+        </div>
+    </header>
+
+    <main>
+      <section class='carrossel'>
+        <div class='slide'>
+          <div class='foto0'></div>
+          <div class='foto1'></div>
+          <div class='foto2'></div>
+        </div>
+        <div class='next'></div>
+        <div class='prev'></div>
+      </section>
+
+      <section class="titulo-principal">
+        <h1>MANDRAKE <br />BARBEARIA</h1>
+      </section>
+
+      <section class="cards">
+        <div class="card1">
+          <h3>PRODUTOS</h3>
+          <img src="../img/icons/cards-home/produtos.png" />
+          <button class="btn"><a href="./src/html/servicos.html">Saiba mais</a></button>
+        </div>
+        <div class="card1">
+          <h3>SERVIÇOS</h3>
+          <img src="./src/img/icons/cards-home/serviços.png" />
+          <button class="btn"><a href="./src/html/servicos.html">Saiba mais</a></button>
+        </div>
+        <div class="card1">
+          <h3>TABACARIA</h3>
+          <img src="./src/img/icons/cards-home/tabacaria.png" />
+          <button class="btn"><a href="./src/html/servicos.html">Saiba mais</a></button>
+        </div>
+      </section>
+
+      
+    </main>
+
+    
+
+  <div id="modalContato" class="modal-container">
+    <div class="modal">
+      <button class="fechar">X</button>
+      <h2>Entre em contato com a gente</h2>
+      <input class="caixa" id="name" name="name" type="text" placeholder="Nome Completo" required>
+  
+      <input class="caixa" id="email" name="email" type="email" placeholder="E-mail" required>
+
+      <textarea id="mensagem"  class="caixa-texto" placeholder="Escreva sua mensagem" required></textarea>
+
+      <a href="#"><input type="button" class="botao" value="Enviar"></a>
+    </div>
+  </div>
+
+    <script src='//code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src='../js/controllers/mudatema_controller.js'></script>
+    <script src='../js/models/mudatema_model.js'></script>
+    <script src='../js/views/mudatema_view.js'></script>
+    <script src='../js/controllers/slide_controller.js'></script>
+    <script src='../js/models/slide_model.js'></script>
+    <script src='../js/views/slide_view.js'></script>
+    <script src='../js/main.js'></script>
+    <script src="../js/modal.js"></script>
+  </body>
 </html>
+
