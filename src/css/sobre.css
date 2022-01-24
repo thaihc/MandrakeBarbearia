@@ -4,6 +4,7 @@
   width: 100%;
   height: 40%;
   align-items: center;
+  padding-top: 20px;
   justify-content: space-evenly;
 }
 
@@ -17,6 +18,16 @@
 .quemSomos > div > img {
   width: 100px;
   padding-right: 5px;
+  animation: desliza 2s ease-in-out;
+}
+
+@keyframes desliza {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 
 .quemSomos > div > h3 {
