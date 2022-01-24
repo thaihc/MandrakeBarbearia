@@ -15,7 +15,7 @@
 }
 
 .quemSomos > div > img {
-  width: 18%;
+  width: 100px;
   padding-right: 5px;
 }
 
@@ -107,4 +107,14 @@ ul > p {
   font-family: var(--bellota);
   color: var(--secundaria);
   margin-left: 50px;
+}
+
+@media (max-width: 1000px) {
+  .missao,
+  .visao {
+    flex-direction: column;
+  }
+  .txt {
+    padding-top: 10px;
+  }
 }
