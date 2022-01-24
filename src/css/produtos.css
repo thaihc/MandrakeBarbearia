@@ -20,6 +20,10 @@ a {
   color: var(--primaria);
 }
 
+.opcoes {
+  display: flex;
+  flex-direction: column;
+}
 .cards {
   display: flex;
   flex-direction: column;
@@ -68,13 +72,23 @@ a {
   width: auto;
 }
 
+.card2 p {
+  font-family: var(--bellota);
+  font-size: 20px;
+  color: var(--primaria-texto);
+}
+
 .btn {
-  width: 200px;
+  width: 500px;
   height: 80px;
-  background: var(--primaria2);
+  align-self: center;
+  background: var(--primaria);
   border: none;
   border-radius: 30px;
-  color: white;
   font-family: var(--bellota);
-  font-size: 24px;
+  font-size: 20px;
+}
+
+.btn a {
+  color: var(--secundaria-bg);
 }
