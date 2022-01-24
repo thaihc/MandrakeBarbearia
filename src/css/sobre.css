@@ -5,11 +5,12 @@
   height: 40%;
   align-items: center;
   padding-top: 20px;
+  padding-bottom: 40px;
   justify-content: space-evenly;
 }
 
 .quemSomos > div {
-  width: 50%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,8 +46,7 @@
 }
 
 .maisInfo {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -56,13 +56,15 @@
 }
 
 .maisInfo > h3 {
-  padding-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   font-size: 35px;
   font-family: var(--off);
   color: var(--sobre);
   width: 80%;
   border-top: 4px solid var(--primaria);
   text-align: center;
+  text-decoration: underline;
 }
 
 .maisInfo > div {
