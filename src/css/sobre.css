@@ -32,3 +32,79 @@
   color: var(--secundaria);
   text-align: justify;
 }
+
+.maisInfo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.maisInfo > h3 {
+  padding-top: 20px;
+  font-size: 35px;
+  font-family: var(--off);
+  color: var(--sobre);
+  width: 80%;
+  border-top: 4px solid var(--primaria);
+  text-align: center;
+}
+
+.maisInfo > div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.missao,
+.visao {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.negrito {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--off);
+  color: var(--sobre);
+}
+
+.txt {
+  font-size: 25px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  justify-content: center;
+  width: 85%;
+  text-align: justify;
+}
+
+.valores {
+  padding-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+li {
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  margin-left: 40px;
+}
+
+ul > p {
+  font-size: 20px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  margin-left: 50px;
+}
