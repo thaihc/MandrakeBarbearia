@@ -21,8 +21,5 @@ class ViewTema {
     $('.cardImg7').attr('src', `/src/img/p1-${tema}.png`);
     $('.cardImg8').attr('src', `/src/img/p2-${tema}.png`);
     $('.cardImg9').attr('src', `/src/img/p3-${tema}.png`);
-    $('.cardImg10').attr('src', `/src/img/t1-${tema}.png`);
-    $('.cardImg11').attr('src', `/src/img/t2-${tema}.png`);
-    $('.cardImg12').attr('src', `/src/img/t3-${tema}.png`);
   }
 }
