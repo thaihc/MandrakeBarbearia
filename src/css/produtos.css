@@ -93,6 +93,21 @@ a {
   color: var(--secundaria-bg);
 }
 
+.btn1 {
+  width: 500px;
+  height: 80px;
+  align-self: center;
+  background: var(--primaria);
+  border: none;
+  border-radius: 30px;
+  font-family: var(--bellota);
+  font-size: 20px;
+}
+
+.btn1 a {
+  color: var(--secundaria-bg);
+}
+
 @media (max-width: 900px) {
   .cards {
     margin: 0px;
