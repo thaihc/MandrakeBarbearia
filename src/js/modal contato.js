@@ -17,7 +17,6 @@ function startModal(modalId) {
 
 const mensagem = document.getElementById('iconFooter3');
 mensagem.addEventListener('click', () => startModal('modalContato'));
-const maisInfo = document.querySelector('.btn');
-maisInfo.addEventListener('click', () => startModal('modalContato'));
-const maisInfo1 = document.querySelector('.btn1');
-maisInfo1.addEventListener('click', () => startModal('modalContato'));
+
+const mensagem1 = document.querySelector('.mensagem');
+mensagem1.addEventListener('click', () => startModal('modalContato'));
