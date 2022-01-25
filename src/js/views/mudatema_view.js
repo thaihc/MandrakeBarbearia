@@ -11,5 +11,6 @@ class ViewTema {
     $('#iconFooter1').attr('src', `/src/img/icons/telefone-${tema}.png`);
     $('#iconFooter2').attr('src', `/src/img/icons/wpp-${tema}.png`);
     $('#iconFooter3').attr('src', `/src/img/icons/email-${tema}.png`);
+    $('.who').attr('src', `/src/img/who-${tema}.png`);
   }
 }

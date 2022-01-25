@@ -17,6 +17,7 @@ body[data-tema='light'] {
   --secundaria: #585c64;
   --primaria-bg: #d9d9d9;
   --secundaria-bg: #ffff;
+  --sobre: #12161e;
 }
 
 body[data-tema='dark'] {
@@ -26,6 +27,7 @@ body[data-tema='dark'] {
   --secundaria: #fff;
   --primaria-bg: #842161;
   --secundaria-bg: #12161e;
+  --sobre: #ffff;
 }
 
 header {

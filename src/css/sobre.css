@@ -1,0 +1,133 @@
+.quemSomos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.quemSomos > div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quemSomos > div > img {
+  width: 100px;
+  padding-right: 5px;
+  animation: desliza 2s ease-in-out;
+}
+
+@keyframes desliza {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.quemSomos > div > h3 {
+  font-size: 35px;
+  font-family: var(--off);
+  color: var(--sobre);
+}
+
+.quemSomos > p {
+  width: 70%;
+  font-size: 25px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  text-align: justify;
+}
+
+.maisInfo {
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.maisInfo > h3 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 35px;
+  font-family: var(--off);
+  color: var(--sobre);
+  width: 80%;
+  border-top: 4px solid var(--primaria);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.maisInfo > div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.missao,
+.visao {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.negrito {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--off);
+  color: var(--sobre);
+}
+
+.txt {
+  font-size: 25px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  justify-content: center;
+  width: 85%;
+  text-align: justify;
+}
+
+.valores {
+  padding-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+li {
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  margin-left: 40px;
+}
+
+ul > p {
+  font-size: 20px;
+  font-family: var(--bellota);
+  color: var(--secundaria);
+  margin-left: 50px;
+}
+
+@media (max-width: 1000px) {
+  .missao,
+  .visao {
+    flex-direction: column;
+  }
+  .txt {
+    padding-top: 10px;
+  }
+}
